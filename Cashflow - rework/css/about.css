@@ -1,0 +1,27 @@
+body{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+.what-container{
+	
+	display: flex;	
+	justify-content: space-around;
+	
+}
+
+.what-container img{
+	width: 250px;
+}
+
+.what-title{
+	text-align: center;
+	width: 100%;
+	font-family: Futura, Arial, sans-serif;
+	font-weight: 900;
+	letter-spacing: 0.001em;
+	font-size: 42px;
+	color: #54575a;
+	line-height: 1em;
+}

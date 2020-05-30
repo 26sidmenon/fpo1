@@ -1,0 +1,122 @@
+footer{
+	background-color: #f7f8fc;
+	color: #54575a;
+	height: 80vh;
+	position: relative;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	padding-top: 40px;
+}
+
+.footer-bottom{
+	background-color: #f7f8fc;
+	color: #54575a;
+	position : absolute;
+	text-align: center;
+	height: 100px;
+	width:100%;
+	bottom:0;
+	left:0;
+	padding-top: 20px;
+}
+
+.footer-content{
+	/*border : 1px solid #8D8A8A;*/
+	height : 300px;
+	display: flex;
+}
+
+.footer-content div{
+	flex:1;
+	padding:25px;
+	border-right: 1px dotted #DFD4D4;
+}
+
+.quicklink-list a{
+	list-style:none;
+	text-decoration: none;
+	color: #54575a;
+	
+}
+
+.quicklink-list li{
+	padding-bottom: 3px;
+}
+
+.quicklink-list li:hover{
+	color: #A5DAF0;
+}
+
+.get-in-touch h3, .subscribe h3{
+	padding-bottom:20px;
+}
+
+.get-in-touch span{
+	display: flex;
+	align-items: flex-start;
+}
+
+.get-in-touch i{
+	
+}
+
+div.socials {
+	padding: 0;
+	border:none;
+	display: flex;
+}
+
+.socials i{
+	width : 40px;
+	height : 40px;
+	align-content: center;
+	color: white;
+	opacity: 0.5;
+}
+
+.socials i:hover{
+	opacity: 1;
+}
+
+.text-input, .btn{
+	margin:0;
+	height:25px;
+}
+
+.subscribe form {
+	display: flex;
+}
+
+.btn{
+	letter-spacing: 0.3vh;
+	color: white;
+	background-color: #979C9D;
+	font-weight: 500;
+}
+
+
+@media(max-width: 800px){
+	
+footer{
+	font-size: small;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.subscribe form {
+	display: flex;
+	flex-direction: column;
+}
+
+.btn{
+
+	letter-spacing: 0.3vh;
+	color: white;
+	background-color: #979C9D;
+	font-weight: 500;
+}
+
+.text-input, .btn{
+	margin:0;
+	width: 95%;
+	height:auto;
+}
+}	

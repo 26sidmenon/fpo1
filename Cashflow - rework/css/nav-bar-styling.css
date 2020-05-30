@@ -1,0 +1,113 @@
+/*code snippet for nav-bar styles*/
+.nav-container	ul{
+	width: 98.5%;
+	padding: 10px;
+	padding-top: 15px;
+	display: inline-flex;
+	align-content: center;
+	list-style: none;
+	
+}
+
+.nav-container {
+	margin:0;
+	background-color: #805E4C;
+	opacity: 0.6;
+	border-radius: 0 0 15px 15px;
+}
+
+.nav-container:hover{
+    display:block;
+    background: #180303;
+	background: linear-gradient(to top, #180303 , #451919); 
+    opacity: 0.7;
+    transition: 0.5s ease;
+    box-shadow: 5px 5px 5px #514D4D;
+}
+
+
+.logo {
+	display: block; 
+	align-content: center;
+	max-width: 200px;
+
+}
+
+.nav-items {
+	display: inline-flex;
+	width:100%;
+    float:right;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    font-family: "SuisseIntl-Light";
+    font-size: 19px;
+    font-weight: 300;
+	color:white;
+	margin-top: 0;
+	margin-bottom: 0;
+	overflow-wrap: break-word;
+}
+
+/*Code for styling the content*/
+
+
+.sec-title {
+	width : 100%;
+	display: inline-flex;
+	font-size: 40px; 
+	font-family:Suisse,Helvetica,Arial,sans-serif; 
+	font-weight:600%;
+	margin-top: 50px; 
+}
+
+
+.sec-subitems-wrapper {
+	display: grid;
+	padding: 0 250px;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.image-wrapper img{
+	width:430px;
+	height: auto;
+	background-size: cover;
+}
+
+.text-wrapper {
+	font-size: 22px; 
+	font-family:Suisse,Helvetica,Arial,sans-serif; 
+	font-weight:600%; 
+	display: flex;
+	justify-content:center;
+}
+
+.image-wrapper :nth-child(odd){
+ 	border-radius: 10px 50px;
+}
+
+.image-wrapper :nth-child(even){
+ 	border-radius: 150px 10px;
+}
+
+.vcp-header , .Impact-header{
+	width : 100%;
+	display: inline-flex;
+	font-size: 40px; 
+	font-family:Suisse,Helvetica,Arial,sans-serif; 
+	font-weight:600%;
+	margin-top: 100px; 
+}
+
+.vcp-text-information {
+	display: flex;
+	justify-content: center;
+	top: 0;
+}
+
+.impact-container{
+	top: 0;
+	display: inline-block;
+}
+
